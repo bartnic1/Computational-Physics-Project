@@ -1,6 +1,8 @@
 #This code demonstrates how to find all of the eigenvectors and eigenvalues
 #of a given matrix A using Jacobi rotations.
 
+#Unresolved issue: Eigenvector magnitudes are correct, but in some cases they are mutliplied by -1
+
 from numpy.linalg import eig
 from numpy import array,sqrt,dot,zeros
 import numpy as np
