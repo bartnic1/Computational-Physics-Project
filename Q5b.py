@@ -2,6 +2,8 @@
 #Simultaneous Orthogonal Iteration to find the entire range of eigenvalues
 #and eigenvectors for some square matrix A.
 
+#Unresolved issue: Some eigenvectors are multiplied by -1.
+
 from numpy import array,zeros,dot,sqrt
 from numpy.linalg import eig
 import numpy as np
